@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1 rem;
+    background-color: rgb(18, 18, 80);
+    color: white;
+    font-style: inherit;
+    padding: 25px;
+    align-items: center;
+
+ 
+}
+
+ul {
+    display: flex;
+    /*deixa o item de coluna para linha*/
+    list-style: none;
+    /*tira bolinha da lista*/
+    gap: 30px;
+    /*espaço entre intens*/
+    font-size: 20px;
+    /*aumenta tamanho da fonte*/
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    padding:20px;
+}
+
+.texto h1 {
+    font-size: 7rem;
+    color:aliceblue;
+}
+
+.texto p {
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.imagem img {
+    width: 500px;
+}
+
+.logo1{
+    align-items: center;
+}
+
+body{
+    background-color: rgb(18, 18, 80);
+}
