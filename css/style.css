@@ -4,61 +4,78 @@
     box-sizing: border-box;
 }
 
-nav {
-    box-sizing: border-box;
-}
-
-nav {
+nav{
     display: flex;
-    justify-content: space-between;
-    font-size: 1 rem;
-    background-color: rgb(18, 18, 80);
-    color: white;
-    font-style: inherit;
-    padding: 25px;
-    align-items: center;
-
- 
-}
-
-ul {
-    display: flex;
-    /*deixa o item de coluna para linha*/
-    list-style: none;
-    /*tira bolinha da lista*/
-    gap: 30px;
-    /*espaço entre intens*/
-    font-size: 20px;
-    /*aumenta tamanho da fonte*/
-}
-
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.texto{
-    padding:20px;
-}
-
-.texto h1 {
-    font-size: 7rem;
-    color:aliceblue;
-}
-
-.texto p {
+    justify-content: space-between;/*Alinha os elementos, um cada canto da página*/
     font-size: 1.5rem;
+    background-color: rgb(11, 14, 80);
+    padding: 3px;
+    margin-right: 25px;
+    align-items: center;
     color: aliceblue;
 }
 
-.imagem img {
-    width: 500px;
+ul{
+    display: flex;
+    list-style: none;/*tirar as bolinhas da lista*/
+    gap: 30px;
+    margin-right: 25px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.texto{
+    padding: 30px;
+}
+.texto h1{
+    font-size: 5rem;
+    color: rgb(222, 155, 88);
+    align-items: end;
 }
 
-.logo1{
-    align-items: center;
+.imagem img{
+    width: 50vw;
+    padding-top: 40px ;
 }
-
 body{
-    background-color: rgb(18, 18, 80);
+    background-color: rgb(11, 14, 80);
+}
+.world{
+    color: rgb(11, 14, 80);
+    background-color: aliceblue;
+}
+
+.textinho{
+    color: aliceblue;
+    margin-top:150px;
+    font: size 1rem;;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.intro{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.logo{
+    width:4vw;
+    margin-left:10px;
+}
+.laranja{
+    color:rgb(222, 155, 88);
+}
+.singup{
+    background-color:rgb(222, 155, 88);
+    color:rgb(11, 14, 80);
+    border-radius: 5px;
+}
+.icone{
+
+    background-color: aliceblue;
+    width: 150px;
+    border-radius: 5px;
+    block-size: 9%;
 }
